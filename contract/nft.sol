@@ -4,7 +4,7 @@ contract RPS{
     
     struct card{
         uint256 cardtype; //1: Rock , 2: Paper, 3 : Scissors  
-        uint256 value;
+        uint256 value; //value of the card
     }
     
     mapping (address => mapping(uint256 => mapping(uint256 => card)))public player;
