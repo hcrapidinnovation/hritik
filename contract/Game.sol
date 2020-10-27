@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.17;
-
+//interface for stars
 interface Interface_stars {
     
     function transfer(address , uint256) payable external returns(bool);
